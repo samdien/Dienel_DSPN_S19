@@ -1,0 +1,18 @@
+Question 1: Correct, although my answer did not fit the instructions of, "being concise." 
+
+Question 2: Correct.
+
+Question 3:Correct. I used a different method to ensure that the edges of the range were included in the runif() function 
+(used as.integer to make sure that all the values were rounded to whole numbers, and used 6+1 to make sure that 6 was included 
+as a possible roll), but it seems like both methods work appropriately. The result of 1000 rolls suggests that both methods do 
+not unfairly bias a single roll (like 1 or 6). Also, it would be asethetically more efficienct to plot the graphs next to each
+other using ggplot2. 
+
+Question 4: Correct. I used a different method to properly throw the right number of dice n number of times. I used a matrix
+function where N was the number of dice thrown and T was the number of throws. Setting this up as a function, I was able to 
+manipulate both numberrs to get the distribution of frequencies. The distributions and qq plots look similar, although I did 
+wonder if my last qq plot with 10,000 throws and 6 dice looked like the tails were longer than expected for a truly normal 
+distribution compared to Tim's graphs, although I think this visual discrepency was due to scaling of the y-axis. The only 
+reason I had this concern was because of the different method I used to round the integers of the dice rolling using the runif
+function. Also, Tim's graphs are easier to interpret when they are plotted right next to each other, so I will asthetically
+change my graphs to look differently next time.
